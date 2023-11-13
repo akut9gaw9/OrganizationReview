@@ -17,7 +17,7 @@ public struct OrganiztionReviewItemState: Equatable {
     public var authorName: String
     
     /// The publication date of the review.
-    public var publicationDate: String
+    public var publicationDate: Date
     
     /// The URL of the author's image.
     public var authorImageURL: URL

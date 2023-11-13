@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852D3C722B024AA9009226E1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852D3C712B024AA9009226E1 /* String.swift */; };
 		8551AFAD2B02220F00FAAECB /* ReviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8551AFAC2B02220F00FAAECB /* ReviewsApp.swift */; };
 		8551AFB12B02221100FAAECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8551AFB02B02221100FAAECB /* Assets.xcassets */; };
 		8551AFB42B02221100FAAECB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8551AFB32B02221100FAAECB /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		852D3C712B024AA9009226E1 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		8551AFA92B02220F00FAAECB /* Reviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8551AFAC2B02220F00FAAECB /* ReviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsApp.swift; sourceTree = "<group>"; };
 		8551AFB02B02221100FAAECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		852D3C702B024AA2009226E1 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				852D3C712B024AA9009226E1 /* String.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		8551AFA02B02220F00FAAECB = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +175,7 @@
 		856B851F2B0239C100A5C75A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				852D3C702B024AA2009226E1 /* String */,
 				856B85202B0239C700A5C75A /* View */,
 			);
 			path = Extensions;
@@ -262,6 +273,7 @@
 				856B851D2B0230F400A5C75A /* AppConstants.swift in Sources */,
 				8551AFC12B0222A600FAAECB /* OrganizationReviewListAction.swift in Sources */,
 				856B850A2B0225AE00A5C75A /* OrganiztionReviewItemState.swift in Sources */,
+				852D3C722B024AA9009226E1 /* String.swift in Sources */,
 				8551AFC32B0222B000FAAECB /* OrganizationReviewListReducer.swift in Sources */,
 				856B850C2B0225B200A5C75A /* OrganiztionReviewItemAction.swift in Sources */,
 				8551AFAD2B02220F00FAAECB /* ReviewsApp.swift in Sources */,
