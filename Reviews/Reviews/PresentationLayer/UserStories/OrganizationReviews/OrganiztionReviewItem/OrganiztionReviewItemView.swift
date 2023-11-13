@@ -26,6 +26,9 @@ public struct OrganiztionReviewItemView: View {
                 HStack(alignment: .top, spacing: 0) {
                     HStack(spacing: 8) {
                         KFImage(viewStore.authorImageURL)
+                            .placeholder({ _ in
+                                Color.background4
+                            })
                             .resizable()
                             .frame(size: LayoutConstants.imageSize)
                             .clipShape(Circle())
