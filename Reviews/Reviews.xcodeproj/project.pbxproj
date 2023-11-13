@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F95DE222B02624B00FD0A64 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95DE212B02624B00FD0A64 /* Color.swift */; };
+		3FB7739D2B02590D00C0236C /* NewsListReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB773942B02590D00C0236C /* NewsListReducer.swift */; };
+		3FB7739E2B02590D00C0236C /* NewsListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB773952B02590D00C0236C /* NewsListState.swift */; };
+		3FB7739F2B02590D00C0236C /* NewsListAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB773962B02590D00C0236C /* NewsListAction.swift */; };
+		3FB773A02B02590D00C0236C /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB773972B02590D00C0236C /* NewsListView.swift */; };
+		3FB773A12B02590D00C0236C /* NewsItemReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB773992B02590D00C0236C /* NewsItemReducer.swift */; };
+		3FB773A32B02590D00C0236C /* NewsItemState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7739B2B02590D00C0236C /* NewsItemState.swift */; };
+		3FB773A42B02590D00C0236C /* NewsItemAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7739C2B02590D00C0236C /* NewsItemAction.swift */; };
+		3FB773A72B025B0400C0236C /* TCANetworkReducers in Frameworks */ = {isa = PBXBuildFile; productRef = 3FB773A62B025B0400C0236C /* TCANetworkReducers */; };
+		3FB773A82B025C6000C0236C /* NewsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7739A2B02590D00C0236C /* NewsItemView.swift */; };
 		8551AFAD2B02220F00FAAECB /* ReviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8551AFAC2B02220F00FAAECB /* ReviewsApp.swift */; };
 		8551AFB12B02221100FAAECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8551AFB02B02221100FAAECB /* Assets.xcassets */; };
 		8551AFB42B02221100FAAECB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8551AFB32B02221100FAAECB /* Preview Assets.xcassets */; };
@@ -25,6 +35,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F95DE212B02624B00FD0A64 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3FB773942B02590D00C0236C /* NewsListReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListReducer.swift; sourceTree = "<group>"; };
+		3FB773952B02590D00C0236C /* NewsListState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListState.swift; sourceTree = "<group>"; };
+		3FB773962B02590D00C0236C /* NewsListAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListAction.swift; sourceTree = "<group>"; };
+		3FB773972B02590D00C0236C /* NewsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		3FB773992B02590D00C0236C /* NewsItemReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItemReducer.swift; sourceTree = "<group>"; };
+		3FB7739A2B02590D00C0236C /* NewsItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItemView.swift; sourceTree = "<group>"; };
+		3FB7739B2B02590D00C0236C /* NewsItemState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItemState.swift; sourceTree = "<group>"; };
+		3FB7739C2B02590D00C0236C /* NewsItemAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItemAction.swift; sourceTree = "<group>"; };
 		8551AFA92B02220F00FAAECB /* Reviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8551AFAC2B02220F00FAAECB /* ReviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsApp.swift; sourceTree = "<group>"; };
 		8551AFB02B02221100FAAECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB773A72B025B0400C0236C /* TCANetworkReducers in Frameworks */,
 				856B85162B022E4700A5C75A /* Kingfisher in Frameworks */,
 				856B85072B02241E00A5C75A /* ComposableArchitecture in Frameworks */,
 			);
@@ -54,6 +74,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FB773932B02590D00C0236C /* News */ = {
+			isa = PBXGroup;
+			children = (
+				3FB773972B02590D00C0236C /* NewsListView.swift */,
+				3FB773952B02590D00C0236C /* NewsListState.swift */,
+				3FB773962B02590D00C0236C /* NewsListAction.swift */,
+				3FB773942B02590D00C0236C /* NewsListReducer.swift */,
+				3FB773982B02590D00C0236C /* NewsItem */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		3FB773982B02590D00C0236C /* NewsItem */ = {
+			isa = PBXGroup;
+			children = (
+				3FB7739A2B02590D00C0236C /* NewsItemView.swift */,
+				3FB7739B2B02590D00C0236C /* NewsItemState.swift */,
+				3FB7739C2B02590D00C0236C /* NewsItemAction.swift */,
+				3FB773992B02590D00C0236C /* NewsItemReducer.swift */,
+			);
+			path = NewsItem;
+			sourceTree = "<group>";
+		};
 		8551AFA02B02220F00FAAECB = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +146,7 @@
 			children = (
 				856B851A2B0230DD00A5C75A /* Common */,
 				8551AFBC2B02226C00FAAECB /* UserStories */,
+				3FB773932B02590D00C0236C /* News */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -166,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				856B85202B0239C700A5C75A /* View */,
+				3F95DE212B02624B00FD0A64 /* Color.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -197,6 +242,7 @@
 			packageProductDependencies = (
 				856B85062B02241E00A5C75A /* ComposableArchitecture */,
 				856B85152B022E4700A5C75A /* Kingfisher */,
+				3FB773A62B025B0400C0236C /* TCANetworkReducers */,
 			);
 			productName = Reviews;
 			productReference = 8551AFA92B02220F00FAAECB /* Reviews.app */;
@@ -229,6 +275,7 @@
 			packageReferences = (
 				856B85052B02241E00A5C75A /* XCRemoteSwiftPackageReference "TCA" */,
 				856B85142B022E4700A5C75A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				3FB773A52B025B0400C0236C /* XCRemoteSwiftPackageReference "tca-network-reducers" */,
 			);
 			productRefGroup = 8551AFAA2B02220F00FAAECB /* Products */;
 			projectDirPath = "";
@@ -256,14 +303,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB773A82B025C6000C0236C /* NewsItemView.swift in Sources */,
+				3FB7739F2B02590D00C0236C /* NewsListAction.swift in Sources */,
+				3FB7739E2B02590D00C0236C /* NewsListState.swift in Sources */,
 				856B85102B0225BD00A5C75A /* OrganiztionReviewItemView.swift in Sources */,
 				856B850E2B0225B700A5C75A /* OrganiztionReviewItemReducer.swift in Sources */,
 				8551AFBF2B02228800FAAECB /* OrganizationReviewListState.swift in Sources */,
 				856B851D2B0230F400A5C75A /* AppConstants.swift in Sources */,
+				3FB773A12B02590D00C0236C /* NewsItemReducer.swift in Sources */,
 				8551AFC12B0222A600FAAECB /* OrganizationReviewListAction.swift in Sources */,
+				3FB773A02B02590D00C0236C /* NewsListView.swift in Sources */,
 				856B850A2B0225AE00A5C75A /* OrganiztionReviewItemState.swift in Sources */,
 				8551AFC32B0222B000FAAECB /* OrganizationReviewListReducer.swift in Sources */,
+				3FB773A32B02590D00C0236C /* NewsItemState.swift in Sources */,
+				3F95DE222B02624B00FD0A64 /* Color.swift in Sources */,
+				3FB7739D2B02590D00C0236C /* NewsListReducer.swift in Sources */,
 				856B850C2B0225B200A5C75A /* OrganiztionReviewItemAction.swift in Sources */,
+				3FB773A42B02590D00C0236C /* NewsItemAction.swift in Sources */,
 				8551AFAD2B02220F00FAAECB /* ReviewsApp.swift in Sources */,
 				856B85222B0239D200A5C75A /* View.swift in Sources */,
 				8551AFC52B0222B700FAAECB /* OrganizationReviewListView.swift in Sources */,
@@ -474,6 +530,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3FB773A52B025B0400C0236C /* XCRemoteSwiftPackageReference "tca-network-reducers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Incetro/tca-network-reducers.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		856B85052B02241E00A5C75A /* XCRemoteSwiftPackageReference "TCA" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Incetro/TCA.git";
@@ -493,6 +557,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3FB773A62B025B0400C0236C /* TCANetworkReducers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FB773A52B025B0400C0236C /* XCRemoteSwiftPackageReference "tca-network-reducers" */;
+			productName = TCANetworkReducers;
+		};
 		856B85062B02241E00A5C75A /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 856B85052B02241E00A5C75A /* XCRemoteSwiftPackageReference "TCA" */;

@@ -102,10 +102,19 @@
     {
       "identity" : "tca",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Incetro/TCA",
+      "location" : "https://github.com/Incetro/TCA.git",
       "state" : {
         "branch" : "main",
         "revision" : "f403c2b04c5e60883905f7c8a8c9bbe4ad5ef88f"
+      }
+    },
+    {
+      "identity" : "tca-network-reducers",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Incetro/tca-network-reducers.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "f7bfed11f7b459157e73d81beb7f58db656c5c98"
       }
     },
     {
